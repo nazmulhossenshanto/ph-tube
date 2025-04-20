@@ -1,0 +1,1 @@
+console.log('added index js folder')
