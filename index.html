@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PH TUBE</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <h1 class="text-xl">Initial set up done</h1>
+
+<body class="w-11/12 mx-auto py-10">
+    <header>
+        <nav class="flex justify-between items-center  border-b-2 border-gray-400 shadow-lg pb-3">
+            <div class="logo">
+                <img src="./assets/Logo.png" alt="">
+            </div>
+            <div class="search">
+                <label class="input">
+                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                            stroke="currentColor">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </g>
+                    </svg>
+                    <input type="search" class="grow" placeholder="Search" />
+                </label>
+            </div>
+            <div class="sort">
+                <button class="btn">Sort</button>
+            </div>
+        </nav>
+        <nav>
+            <section id="btn-container" class="flex justify-center py-3 gap-4">
+            </section>
+        </nav>
+    </header>
+    <main>
+        <section id="videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10 ">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/test.js"></script>
 </body>
+
 </html>
